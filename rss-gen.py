@@ -2,7 +2,9 @@ import datetime
 import subprocess
 
 def get_episode_duration(url):
-    """Get the duration of an audio file using ffprobe."""
+    # Ensure the URL is properly encoded
+    import urllib.parse
+    url = urllib.parse.quote(url, safe='/:?&=')
     try:
         result = subprocess.run(
             [
