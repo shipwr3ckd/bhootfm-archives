@@ -1,2 +1,3 @@
 # bhootfm-archives
-BhootFM but RSSed :)
+Sourced from online sources available online. 
+Enjoy :)
