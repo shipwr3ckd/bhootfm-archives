@@ -38,5 +38,4 @@ jobs:
           git config --global user.email 'actions@github.com'
           git add bhootfm-rss.xml
           git diff --cached --quiet || git commit -m 'Generate BhootFM RSS Feed'
-          git push "https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" master
-          
+          git push "https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" main
